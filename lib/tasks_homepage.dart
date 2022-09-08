@@ -7,12 +7,12 @@ import 'package:promina_task/widgets/task_container.dart';
 
 import 'create_new_task_page.dart';
 
-class CalendarPageLessons extends StatefulWidget {
+class Tasks_Homepge extends StatefulWidget {
   @override
-  State<CalendarPageLessons> createState() => _CalendarPageLessonsState();
+  State<Tasks_Homepge> createState() => _Tasks_HomepgeState();
 }
 
-class _CalendarPageLessonsState extends State<CalendarPageLessons> {
+class _Tasks_HomepgeState extends State<Tasks_Homepge> {
   DateTime _selectedDate = DateTime.now();
   ScrollController _scrollController = ScrollController();
   @override

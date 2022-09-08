@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:promina_task/calendar_page%20lessons.dart';
+import 'package:promina_task/tasks_homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: CalendarPageLessons(),
+      home: Tasks_Homepge(),
       debugShowCheckedModeBanner: false,
     );
   }
